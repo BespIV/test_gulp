@@ -24,7 +24,7 @@ gulp.task('babell', () =>
 );
 
 gulp.task('clean', function () {
-	return gulp.src('dest/', {read: false})
+	return gulp.src('dest/**/', {read: false})
 	.pipe(clean());
 });
 
